@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'Written programmatically',
   url: 'https://staveservice.github.io',
   baseUrl: '/docs/',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'StaveService', // Usually your GitHub org/user name.
@@ -42,7 +42,7 @@ module.exports = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/docs/intro',
             },
           ],
         },
